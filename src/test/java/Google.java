@@ -18,4 +18,10 @@ public class Google extends BasePage{
 
 		homeMethods.getGoogleTitle();
 	}
+
+	@Test
+	public void searchInGoogleBar() {
+
+		homeMethods.searchGoogle("Bilal Mohsin");
+	}
 }

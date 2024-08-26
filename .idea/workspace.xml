@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3b9761d-e6da-420a-8028-d749551a7f0a" name="Changes" comment="ss">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/methods/HomeMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Google.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+    <list default="true" id="d3b9761d-e6da-420a-8028-d749551a7f0a" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/body/GoogleBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/methods/HomeMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methods/HomeMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Google.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Google.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Google.getTitle">
+  <component name="RunManager" selected="TestNG.Google">
     <configuration name="Google" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PlayWright" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Google.getTitle" />
         <item itemvalue="TestNG.Google" />
+        <item itemvalue="TestNG.Google.getTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724673246219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial">
+      <created>1724675325906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724675325907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,21 +116,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ss" />
-    <option name="LAST_COMMIT_MESSAGE" value="ss" />
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Google.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/methods/HomeMethods.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/BasePage.java</url>
           <line>40</line>
