@@ -1,5 +1,6 @@
 package methods;
 
+import body.GoogleBody;
 import com.microsoft.playwright.Page;
 
 public class HomeMethods {
@@ -14,6 +15,11 @@ public class HomeMethods {
 	public void getGoogleTitle() {
 
 		System.out.println(page.title());
+	}
+
+	public void searchGoogle(String text) {
+
+		page.locator(GoogleBody.searchBar).fill("Bilal Mohsin");
 	}
 
 }
