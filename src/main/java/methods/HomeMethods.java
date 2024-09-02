@@ -21,5 +21,4 @@ public class HomeMethods {
 
 		page.locator(GoogleBody.searchBar).fill("Bilal Mohsin");
 	}
-
 }
